@@ -10,16 +10,16 @@ public class Ex1 {
 		A[2] = 5;
 		A[3] = -2;
 		A[4] = -5;
-		A[5] = 7;
+		A[5] = 8;
 	
 		soma = A[0] +A[1] + A[5];
-		System.out.println("O valor dos vetores A são : ");
+		System.out.println("O valor dos vetores A sï¿½o : ");
 		
 		for (i=0;i<=5;i++) {
 		System.out.println("A["+i+"] ="+A[i]);
 		}
 		A[4]=100;
-		System.out.println("A posição de A[4] modificada é: "+A[4]);
-		System.out.println("A soma dos vlores de A0, A1 e A5 é: "+soma);
+		System.out.println("A posiï¿½ï¿½o de A[4] modificada ï¿½: "+A[4]);
+		System.out.println("A soma dos vlores de A0, A1 e A5 ï¿½: "+soma);
 	}
 	}
